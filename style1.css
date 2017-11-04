@@ -5,17 +5,12 @@ CSS for Bubble Under site
 */
 
 body {
-
- font-family: Verdana, Helvetica, Arial, sans-serif;
-
-background-color: black;
-
- line-height: 125%;
-
- padding: 15px;
- 
-
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	background-color: black;
+	line-height: 125%;
+	padding: 15px;
 }
+
 p {
 	color: red;
     margin: 0px 0px 0px 200px;
@@ -23,51 +18,36 @@ p {
 	line-height: 150%;
 }
 
-div {
-	margin: 0px 0px 0px 200px;
+.block {
+	margin: 100px 200px 100px 200px;
 }
 
 h1 {
-
- font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
-color: #ef6b28;
-font-size: 6;
-margin: 0px 0px 0px 0px;
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+	color: #ef6b28;
+	font-size: 6;
+	margin: 0px 0px 0px 0px;
 }
 
 li {
-
- font-size: small;
-
+	font-size: small;
 }
  
 h2 {
-
- color: blue;
-
- font-size: medium;
-
- font-weight: normal;
- 
- /*margin: 0px 0px 0px 200px;*/
-
+	color: blue;
+	font-size: medium;
+	font-weight: normal;
 }
-
-
  
 em {
-
- font-style: normal;
-
- text-transform: uppercase;
-
+	font-style: normal;
+	text-transform: uppercase;
 }
  
-img
-{
-margin: 10px 10px 10px 10px;
-<!-- he order of the values is clockwise from top - top, right, bottom, left. -->
+img {
+	margin: 10px 10px 10px 10px;
 }
+
 <!-- h1, h2, h3 {
 
  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
@@ -79,59 +59,46 @@ margin: 10px 10px 10px 10px;
 }
  
 a {
-
- font-weight: bold;
-
- color: black;
-
+	font-weight: bold;
+	color: black;
 }
  
 a {
-
- font-weight: bold;
-
+	font-weight: bold;
 }
 
 a:link {
-
- color: red;
-
+	color: red;
 }
 
 a:visited {
-
- color: #9b073b;
-
+	color: #9b073b;
 }
 
 a:hover {
-
- text-decoration: none;
-
- color: black;
-
- background-color: red;
-
+	text-decoration: none;
+	color: black;
+	background-color: red;
 }
 
 a:active {
-
- color: aqua;
-
- background-color: navy;
-
+	color: aqua;
+	background-color: navy;
 }
 
 mark.orange {
     color:#ef6b28;
     background: none;
 }
-navbar{
+
+navbar {
 	vertical-align: middle;
 }
+
 img.navbar{
 	vertical-align: -30%;
 }
+
 nav {
     list-style-type: none;
     margin: 0;
@@ -141,24 +108,18 @@ nav {
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
+	border: 3px solid red;
 }
+
 .active {
     background-color: red;
     color: black;
 }
-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
 nav a {
     display: block;
     width: 60px;
 }
-nav {
-    border: 3px solid red;
-}
-
 
 li {
     text-align: center;
