@@ -61,13 +61,10 @@ img {
 }
  
 a {
-	font-weight: bold;
-	color: black;
+	font-weight: normal;
+	color: red;
 }
- 
-a {
-	font-weight: bold;
-}
+
 
 a:link {
 	color: red;
