@@ -1,5 +1,5 @@
 $(document).ready(function(){
-//    $("body").prepend("<canvas style='position: fixed; z-index: 100; width: 100%; height: 100%; margin: 0; padding: 0;'></canvas>");
+    $("body").prepend("<center><audio controls autoplay><source src='peoplesanthem.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio><center>");
 	
 	var scene = new THREE.Scene();
 	var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
