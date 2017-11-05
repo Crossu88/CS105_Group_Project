@@ -19,7 +19,9 @@ p {
 }
 
 .block {
-	margin: 100px 200px 100px 200px;
+	margin-top: 50px;
+    text-align: left;
+        
 }
 
 h1 {
@@ -59,13 +61,10 @@ img {
 }
  
 a {
-	font-weight: bold;
-	color: black;
+	font-weight: normal;
+	color: red;
 }
- 
-a {
-	font-weight: bold;
-}
+
 
 a:link {
 	color: red;
